@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  font-family: sans-serif;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: lightseagreen;
+  color: white;
+  border-radius: 1rem;
+  text-align: center;
+}
